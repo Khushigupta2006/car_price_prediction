@@ -5,7 +5,7 @@ st.set_page_config(page_title="car price prediction App")
 st.title("car price prediction dashboard")
 
 mileage = st.text_input("Enter mileage")
-fuel type = st.text_input("Enter fuel type")
+fuel_type = st.text_input("Enter fuel type")
 
 year = st.selectbox(
     "Select year",
