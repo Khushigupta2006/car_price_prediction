@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-data = pd.read_csv("D:\Applied AI\carprice.
+data = pd.read_csv("D:\Applied AI\carprice")
 st.set_page_config(page_title="car price prediction App")
 
 st.title("car price prediction dashboard")
