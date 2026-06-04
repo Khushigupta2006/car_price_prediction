@@ -9,8 +9,8 @@ mileage = st.text_input("Enter mileage")
 fuel_type = st.text_input("Enter fuel type")
 
 year = st.selectbox(
-    "Select year",
-    [data]
+    "Select year".
+    data
 )
 
 if st.button("Submit"):
