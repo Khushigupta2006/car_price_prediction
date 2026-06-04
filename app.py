@@ -1,19 +1,19 @@
 import streamlit as st
 import pandas as pd
-data = pd.read_csv("D:\Applied AI\carprice.csv")
-data.st.set_page_config(page_title="car price prediction App")
+data = pd.read_csv("D:\Applied AI\carprice.
+st.set_page_config(page_title="car price prediction App")
 
-data.st.title("car price prediction dashboard")
+st.title("car price prediction dashboard")
 
-mileage = data.st.text_input("Enter mileage")
-fuel_type = data.st.text_input("Enter fuel type")
+mileage = st.text_input("Enter mileage")
+fuel_type = st.text_input("Enter fuel type")
 
-year = data.st.selectbox(
-    "Select year"
+year = st.selectbox(
+    "Select year"[data]
 )
 
-if data.st.button("Submit"):
-    data.st.success.data("Successful")
-    data.st.write.data("mileage:", mileage)
-    data.st.write.data("fuel_type:", fuel_type)
-    data.st.write.data("year:", year)
+if st.button("Submit"):
+    st.success.data("Successful")
+    st.write.data("mileage:", mileage)
+    st.write.data("fuel_type:", fuel_type)
+    st.write.data("year:", year)
