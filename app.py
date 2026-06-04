@@ -15,5 +15,5 @@ year = st.selectbox(
 if st.button("Submit"):
     st.success("Successful")
     st.write("mileage:", mileage)
-    st.write("fuel type:", fuel type)
+    st.write("fuel_type:", fuel_type)
     st.write("year:", year)
