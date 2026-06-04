@@ -1,4 +1,5 @@
 import streamlit as st
+import pandas as pd
 data = pd.read_csv("D:\Applied AI\carprice.csv")
 st.set_page_config(page_title="car price prediction App")
 
